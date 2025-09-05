@@ -5,18 +5,19 @@
  */
 
 :root {
-  /* Windows 1.1 Colors */
-  --win-bg: #c0c0c0;
+  /* Windows 1.1 Colors - Yellow & Blue Theme */
+  --win-bg: #ffff00;
   --win-border-light: #ffffff;
-  --win-border-dark: #808080;
-  --win-border-darker: #000000;
-  --win-title-bg: #000080;
+  --win-border-dark: #0000ff;
+  --win-border-darker: #000080;
+  --win-title-bg: #0000ff;
   --win-title-text: #ffffff;
-  --win-button-bg: #c0c0c0;
+  --win-button-bg: #ffff00;
   
-  /* MIT Colors */
-  --mit-red: #a31f34;
-  --mit-gray: #8a8a8a;
+  /* Accent Colors */
+  --accent-blue: #0000ff;
+  --accent-yellow: #ffff00;
+  --accent-dark-blue: #000080;
   
   /* Typography */
   --font-mono: 'Courier New', 'MS Sans Serif', monospace;
@@ -115,12 +116,12 @@
 body {
   font-family: var(--font-system);
   font-size: 11px;
-  background: #008080;
+  background: #ffffff;
   background-image: 
-    linear-gradient(45deg, #008080 25%, transparent 25%),
-    linear-gradient(-45deg, #008080 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #008080 75%),
-    linear-gradient(-45deg, transparent 75%, #008080 75%);
+    linear-gradient(45deg, #0000ff 25%, transparent 25%),
+    linear-gradient(-45deg, #0000ff 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #0000ff 75%),
+    linear-gradient(-45deg, transparent 75%, #0000ff 75%);
   background-size: 20px 20px;
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
   margin: 0;
